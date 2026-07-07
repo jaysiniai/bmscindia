@@ -12,13 +12,12 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-br from-blue-900 via-slate-900 to-black text-white">
       <Navbar />
       <Hero />
-      <Stats />
       <Services />
       <WhyChooseUs />
-      <about />
+      <About />
       <Reviews />
-      <contact />
-      <footer />
+      <Contact />
+      <Footer />
     </main>
   );
 }
